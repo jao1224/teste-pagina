@@ -1,0 +1,224 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+ .my-class2{ /* imagem da logo  */
+   margin-top: 50px;
+   max-width: 150px;
+   max-height: 150px;
+ }
+  
+ p,h1,h5{ color: #9bb0c5; }  /* os p´s   e  h1´s  */
+  
+ #BG-Section1{  /* part 1 */
+    background-color: #f4f5f9;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height:  80vh;
+    display: flex;
+ }
+  
+ .row.justify-content-center {  /* parte da custumer logo   */
+     width: auto;
+     height: auto;
+     display:flex;
+     margin-top: 70px;   
+     justify-content: space-between;
+ }
+  
+ #section2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+     
+ }   
+ 
+ .container-section2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px; /* Espaçamento entre as colunas */
+    justify-items: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin-right: 80px;
+   
+ }
+   
+ .circulo-icon {
+    width: 85px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #9bb0c5 solid 2px;
+    border-radius: 50%;
+    text-align: center;
+ }
+   
+ .textos-feature { /* tabela dos icones ##texto  */
+    text-align: center;
+ }
+  
+  
+ .parte3 {
+    display: flex;
+    background-color: #f4f5f9;
+    height: 80vh;
+    border-left: 20px solid #f4f5f9; /* Reduzindo a borda da esquerda para 20px */
+    border-right: 20px solid #f4f5f9; /* Reduzindo a borda da direita para 20px */
+    align-items: center;
+ }
+ 
+ #section3-img-div {
+    float: right;
+    max-width: 100%; /* Garante que a imagem não exceda a largura da parte3 */
+    max-height: auto; /* Mantém a proporção original da imagem */
+ }
+ 
+ .textopart3 {
+    align-items: center;
+    max-width: 100%; /* Garante que o texto não exceda a largura da parte3 */
+    margin-right: 20px; /* Reduzindo a margem direita para espaço responsivo */
+    margin-top: 70px;
+ 
+ }
+ 
+ @media (max-width: 768px) {
+    .parte3 {
+       flex-direction: column; /* Altera a direção do flex para empilhar em telas menores */
+       border: none; /* Remove as bordas em telas menores */
+    }
+ 
+    .textopart3 {
+       margin-right: 0; /* Remove a margem direita em telas menores */
+    }
+ }
+ .parte4{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+ 
+     
+ }
+ .imagem-i1{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+ }
+ .conteudo{
+    margin: 0 auto;
+ }
+ .texto{
+    float: right;
+    text-align: justify;
+  
+ } 
+ .linha0{
+    padding-left: 30px;  
+ }
+ .parte5{
+    text-align:center ;
+    height: 80vh;
+    background-color:#f4f5f9 ; 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+ }
+ .perfil-imagem img{
+    border-radius: 50%;
+    margin: 0,10px;
+    width: 100px;
+    margin: 5px;
+ }
+ .pessoas {
+    display: inline-block;
+    text-align: center;
+ }
+  
+ .pessoa1,.pessoa2 {
+    display: inline-block;
+    margin: 10px;
+ }
+ 
+ .parte6{
+    text-align:center ;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .roda-pe{
+    height: 15vh;
+    background-color:#f4f5f9 ; 
+ }
+ .logo-principal img{
+    width: 100px; /* Largura do logotipo (ajuste conforme necessário) */
+    height: auto;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+ }
+ .textod-part7 p{
+    padding-top: 50px;
+    text-align: end;
+ }
+ .formulario1{
+    #nome1{
+       background-color: white;
+       border: #9bb0c5 solid 1px;
+       padding: 11px 30px;
+       border-radius: 4%;
+    }
+    #email1{
+       background-color: white;
+       border: #9bb0c5 solid 1px;
+       padding: 11px 30px;
+       border-radius: 4%;
+       margin-left: 25px;
+    }
+    #enviar1{
+       background-color: #6b8095;
+       color: white;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;
+       padding: 15px;
+       border: none;
+       margin-left: 25px;
+       border-radius: 4%;
+       cursor: pointer;
+    }
+ }
+ .formulario2{
+    #nome2{
+       background-color: white;
+       border: #9bb0c5 solid 1px;
+       padding: 11px 30px;
+       border-radius: 4%;
+    }
+    #email2{
+       background-color: white;
+       border: #9bb0c5 solid 1px;
+       padding: 11px 30px;
+       border-radius: 4%;
+       margin-left: 25px;
+    }
+    #enviar2{
+       background-color: #6b8095;
+       color: white;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;
+       padding: 15px;
+       border: none;
+       margin-left: 25px;
+       border-radius: 4%;
+       cursor: pointer;
+    }
+ }
