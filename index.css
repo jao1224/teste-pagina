@@ -103,6 +103,7 @@ body {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    background-color: #215FA1;
  
      
  }
@@ -126,7 +127,7 @@ body {
  .parte5{
     text-align:center ;
     height: 80vh;
-    background-color:#f4f5f9 ; 
+    background-color:#12355B; 
     display: grid;
     justify-content: center;
     align-items: center;
@@ -153,10 +154,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #215FA1
  }
  .roda-pe{
     height: 15vh;
-    background-color:#f4f5f9 ; 
+    background-color:#12355B ; 
  }
  .logo-principal img{
     width: 100px; /* Largura do logotipo (ajuste conforme necessário) */
